@@ -1,0 +1,12 @@
+* {
+  text-align: center;
+  font-family: "Karla", sans-serif;
+}
+body {
+  background-color: #333;
+  color: white;
+}
+h1 {
+  letter-spacing: 3px;
+  margin: 15px;
+}
