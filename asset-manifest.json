@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/WitcherForm/static/css/main.17856935.chunk.css",
+    "main.css": "/WitcherForm/static/css/main.d8ade55d.chunk.css",
     "main.js": "/WitcherForm/static/js/main.e7c6052f.chunk.js",
     "main.js.map": "/WitcherForm/static/js/main.e7c6052f.chunk.js.map",
     "runtime-main.js": "/WitcherForm/static/js/runtime-main.95b51014.js",
@@ -8,9 +8,9 @@
     "static/js/2.63679bb9.chunk.js": "/WitcherForm/static/js/2.63679bb9.chunk.js",
     "static/js/2.63679bb9.chunk.js.map": "/WitcherForm/static/js/2.63679bb9.chunk.js.map",
     "index.html": "/WitcherForm/index.html",
-    "precache-manifest.81b8f08153199e98c928967104deeaad.js": "/WitcherForm/precache-manifest.81b8f08153199e98c928967104deeaad.js",
+    "precache-manifest.3e84745c14f712a4b9a5dbe183a2dfe6.js": "/WitcherForm/precache-manifest.3e84745c14f712a4b9a5dbe183a2dfe6.js",
     "service-worker.js": "/WitcherForm/service-worker.js",
-    "static/css/main.17856935.chunk.css.map": "/WitcherForm/static/css/main.17856935.chunk.css.map",
+    "static/css/main.d8ade55d.chunk.css.map": "/WitcherForm/static/css/main.d8ade55d.chunk.css.map",
     "static/js/2.63679bb9.chunk.js.LICENSE.txt": "/WitcherForm/static/js/2.63679bb9.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/WitcherForm/static/media/logo.f35e9c84.png",
     "static/media/App.css": "/WitcherForm/static/media/witcher4.938a9bf5.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.95b51014.js",
     "static/js/2.63679bb9.chunk.js",
-    "static/css/main.17856935.chunk.css",
+    "static/css/main.d8ade55d.chunk.css",
     "static/js/main.e7c6052f.chunk.js"
   ]
 }
