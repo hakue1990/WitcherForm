@@ -7,7 +7,6 @@ class app extends Component {
   render() {
     return (
       <React.Fragment>
-        <h1>Witcher Login</h1>
         <Form />
       </React.Fragment>
     );
