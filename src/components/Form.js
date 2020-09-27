@@ -36,38 +36,38 @@ class Form extends Component {
     if (this.state.username.length >= 3) {
       username = true;
     }
+
     if (this.state.password.length >= 3) {
       password = true;
     }
+
     if (username && password) {
       correct = true;
-      return {
-        username,
-        password,
-        correct,
-      };
     }
+    return {
+      username,
+      password,
+      correct,
+    };
   };
   handleSubmit = (e) => {
+    console.log(this.formValidation());
     e.preventDefault();
-    const validation = this.formValidation();
-    if (validation.correct) {
-      console.log("wysłany");
+    if (this.formValidation().correct) {
       this.setState({
         username: "",
         password: "",
+
         errors: {
           username: false,
           password: false,
         },
       });
-    } else if (validation.correct === false) {
-      console.log("nie wysłany");
-
+    } else {
       this.setState({
         errors: {
-          username: !validation.username,
-          password: !validation.password,
+          username: !this.formValidation().username,
+          password: !this.formValidation().password,
         },
       });
     }
