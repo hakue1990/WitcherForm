@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/WitcherForm/static/css/main.d8ade55d.chunk.css",
-    "main.js": "/WitcherForm/static/js/main.e7c6052f.chunk.js",
-    "main.js.map": "/WitcherForm/static/js/main.e7c6052f.chunk.js.map",
+    "main.js": "/WitcherForm/static/js/main.ae72d34c.chunk.js",
+    "main.js.map": "/WitcherForm/static/js/main.ae72d34c.chunk.js.map",
     "runtime-main.js": "/WitcherForm/static/js/runtime-main.95b51014.js",
     "runtime-main.js.map": "/WitcherForm/static/js/runtime-main.95b51014.js.map",
     "static/js/2.63679bb9.chunk.js": "/WitcherForm/static/js/2.63679bb9.chunk.js",
     "static/js/2.63679bb9.chunk.js.map": "/WitcherForm/static/js/2.63679bb9.chunk.js.map",
     "index.html": "/WitcherForm/index.html",
-    "precache-manifest.3e84745c14f712a4b9a5dbe183a2dfe6.js": "/WitcherForm/precache-manifest.3e84745c14f712a4b9a5dbe183a2dfe6.js",
+    "precache-manifest.0cf7254d28c02003494c07d5300206d8.js": "/WitcherForm/precache-manifest.0cf7254d28c02003494c07d5300206d8.js",
     "service-worker.js": "/WitcherForm/service-worker.js",
     "static/css/main.d8ade55d.chunk.css.map": "/WitcherForm/static/css/main.d8ade55d.chunk.css.map",
     "static/js/2.63679bb9.chunk.js.LICENSE.txt": "/WitcherForm/static/js/2.63679bb9.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.95b51014.js",
     "static/js/2.63679bb9.chunk.js",
     "static/css/main.d8ade55d.chunk.css",
-    "static/js/main.e7c6052f.chunk.js"
+    "static/js/main.ae72d34c.chunk.js"
   ]
 }

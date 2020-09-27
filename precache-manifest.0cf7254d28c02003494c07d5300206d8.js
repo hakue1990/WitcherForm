@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34337f62a91a6bb03b0bf0c18c9b45b0",
+    "revision": "ddebd73f759f118ccefe213a270deb31",
     "url": "/WitcherForm/index.html"
   },
   {
-    "revision": "72a5b640d3cf661c74a9",
+    "revision": "4910cdf4485ae822aeb0",
     "url": "/WitcherForm/static/css/main.d8ade55d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/WitcherForm/static/js/2.63679bb9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "72a5b640d3cf661c74a9",
-    "url": "/WitcherForm/static/js/main.e7c6052f.chunk.js"
+    "revision": "4910cdf4485ae822aeb0",
+    "url": "/WitcherForm/static/js/main.ae72d34c.chunk.js"
   },
   {
     "revision": "4159d53951ff5edbca2f",
