@@ -5,17 +5,70 @@ import logo from "../assets/images/logo.png";
 class Form extends Component {
   state = {
     username: "",
-    email: "",
     password: "",
+    correct: false,
+    errors: {
+      username: false,
+      password: false,
+    },
   };
+  messages = {
+    username: "at least 3 characters",
+    password: "at least 3 characters",
+  };
+
   inputHandleChange = (e) => {
     if (e.target.type === "checkbox") {
       this.setState({
         [e.target.name]: e.target.chceked,
       });
-    } else {
+    } else if (e.target.type === "text" || e.target.type === "password") {
       this.setState({
         [e.target.name]: e.target.value,
+      });
+    }
+  };
+  formValidation = () => {
+    let username = false;
+    let password = false;
+    let correct = false;
+
+    if (this.state.username.length >= 3) {
+      username = true;
+    }
+    if (this.state.password.length >= 3) {
+      password = true;
+    }
+    if (username && password) {
+      correct = true;
+      return {
+        username,
+        password,
+        correct,
+      };
+    }
+  };
+  handleSubmit = (e) => {
+    e.preventDefault();
+    const validation = this.formValidation();
+    if (validation.correct) {
+      console.log("wysłany");
+      this.setState({
+        username: "",
+        password: "",
+        errors: {
+          username: false,
+          password: false,
+        },
+      });
+    } else if (validation.correct === false) {
+      console.log("nie wysłany");
+
+      this.setState({
+        errors: {
+          username: !validation.username,
+          password: !validation.password,
+        },
       });
     }
   };
@@ -26,17 +79,27 @@ class Form extends Component {
           <img alt="logo" src={logo} />
         </div>
 
-        <form autocomplete="off">
+        <form onSubmit={this.handleSubmit}>
           <div className="inputBox">
-            <input type="text" name="username" id="username" />
+            <input
+              type="text"
+              name="username"
+              id="username"
+              onChange={this.inputHandleChange}
+            />
             <label htmlFor="username">Username:</label>
           </div>
           <div className="inputBox">
-            <input type="password" name="password" id="password" />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              onChange={this.inputHandleChange}
+            />
             <label htmlFor="password">Password:</label>
           </div>
           <div className="btnBox">
-            <button>Submit</button>
+            <button>Login</button>
           </div>
         </form>
       </div>

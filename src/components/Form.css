@@ -58,4 +58,8 @@ img {
   cursor: pointer;
   border: 2px solid #fff;
   border-radius: 10px;
+  transition: 3s ease-in-out linear;
+}
+.box button:hover {
+  background-color: black;
 }
