@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/WitcherForm/static/css/main.8da12393.chunk.css",
-    "main.js": "/WitcherForm/static/js/main.52b5c1c5.chunk.js",
-    "main.js.map": "/WitcherForm/static/js/main.52b5c1c5.chunk.js.map",
+    "main.css": "/WitcherForm/static/css/main.ad048791.chunk.css",
+    "main.js": "/WitcherForm/static/js/main.ccb8c4bc.chunk.js",
+    "main.js.map": "/WitcherForm/static/js/main.ccb8c4bc.chunk.js.map",
     "runtime-main.js": "/WitcherForm/static/js/runtime-main.95b51014.js",
     "runtime-main.js.map": "/WitcherForm/static/js/runtime-main.95b51014.js.map",
     "static/js/2.63679bb9.chunk.js": "/WitcherForm/static/js/2.63679bb9.chunk.js",
     "static/js/2.63679bb9.chunk.js.map": "/WitcherForm/static/js/2.63679bb9.chunk.js.map",
     "index.html": "/WitcherForm/index.html",
-    "precache-manifest.96afebc9085b72dde9830b34c5e23dd0.js": "/WitcherForm/precache-manifest.96afebc9085b72dde9830b34c5e23dd0.js",
+    "precache-manifest.14a947b37abb9e42075bde59a95a70a2.js": "/WitcherForm/precache-manifest.14a947b37abb9e42075bde59a95a70a2.js",
     "service-worker.js": "/WitcherForm/service-worker.js",
-    "static/css/main.8da12393.chunk.css.map": "/WitcherForm/static/css/main.8da12393.chunk.css.map",
+    "static/css/main.ad048791.chunk.css.map": "/WitcherForm/static/css/main.ad048791.chunk.css.map",
     "static/js/2.63679bb9.chunk.js.LICENSE.txt": "/WitcherForm/static/js/2.63679bb9.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/WitcherForm/static/media/logo.f35e9c84.png",
     "static/media/App.css": "/WitcherForm/static/media/witcher4.9023cc4a.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.95b51014.js",
     "static/js/2.63679bb9.chunk.js",
-    "static/css/main.8da12393.chunk.css",
-    "static/js/main.52b5c1c5.chunk.js"
+    "static/css/main.ad048791.chunk.css",
+    "static/js/main.ccb8c4bc.chunk.js"
   ]
 }
