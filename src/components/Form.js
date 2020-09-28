@@ -57,7 +57,7 @@ class Form extends Component {
       this.setState({
         username: "",
         password: "",
-        message: "Logowanie udane",
+        message: "successful login",
 
         errors: {
           username: false,
