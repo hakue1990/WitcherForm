@@ -51,7 +51,6 @@ class Form extends Component {
     };
   };
   handleSubmit = (e) => {
-    console.log(this.formValidation());
     e.preventDefault();
     if (this.formValidation().correct) {
       this.setState({
@@ -89,6 +88,9 @@ class Form extends Component {
               onChange={this.inputHandleChange}
             />
             <label htmlFor="username">Username:</label>
+            {this.state.errors.username ? (
+              <span>{this.messages.username}</span>
+            ) : null}
           </div>
           <div className="inputBox">
             <input
@@ -99,6 +101,9 @@ class Form extends Component {
               onChange={this.inputHandleChange}
             />
             <label htmlFor="password">Password:</label>
+            {this.state.errors.password ? (
+              <span>{this.messages.password}</span>
+            ) : null}
           </div>
           <div className="btnBox">
             <button>Login</button>
