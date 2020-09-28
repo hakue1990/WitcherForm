@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ddebd73f759f118ccefe213a270deb31",
+    "revision": "0fbd145e071850a019e171b8e5e1653a",
     "url": "/WitcherForm/index.html"
   },
   {
-    "revision": "4910cdf4485ae822aeb0",
-    "url": "/WitcherForm/static/css/main.d8ade55d.chunk.css"
+    "revision": "0aa6180d57baa8e650a9",
+    "url": "/WitcherForm/static/css/main.8da12393.chunk.css"
   },
   {
     "revision": "5e626a62d8551ee056ef",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/WitcherForm/static/js/2.63679bb9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4910cdf4485ae822aeb0",
-    "url": "/WitcherForm/static/js/main.ae72d34c.chunk.js"
+    "revision": "0aa6180d57baa8e650a9",
+    "url": "/WitcherForm/static/js/main.52b5c1c5.chunk.js"
   },
   {
     "revision": "4159d53951ff5edbca2f",
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/WitcherForm/static/media/logo.f35e9c84.png"
   },
   {
-    "revision": "938a9bf54b7ed02efcc11e416c85b99a",
-    "url": "/WitcherForm/static/media/witcher4.938a9bf5.png"
+    "revision": "9023cc4ae50a6be63989b302ea1e7bc0",
+    "url": "/WitcherForm/static/media/witcher4.9023cc4a.jpg"
   }
 ]);
