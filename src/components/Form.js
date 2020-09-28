@@ -82,6 +82,7 @@ class Form extends Component {
         <form onSubmit={this.handleSubmit}>
           <div className="inputBox">
             <input
+              required="off"
               type="text"
               name="username"
               id="username"
@@ -91,6 +92,7 @@ class Form extends Component {
           </div>
           <div className="inputBox">
             <input
+              required="off"
               type="password"
               name="password"
               id="password"
