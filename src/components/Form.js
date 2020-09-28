@@ -7,6 +7,7 @@ class Form extends Component {
     username: "",
     password: "",
     correct: false,
+    message: "",
     errors: {
       username: false,
       password: false,
@@ -56,6 +57,7 @@ class Form extends Component {
       this.setState({
         username: "",
         password: "",
+        message: "Logowanie udane",
 
         errors: {
           username: false,
@@ -71,6 +73,16 @@ class Form extends Component {
       });
     }
   };
+
+  componentDidUpdate = () => {
+    if (this.state.message !== "") {
+      setTimeout(() => {
+        this.setState({
+          message: "",
+        });
+      }, 3000);
+    }
+  };
   render() {
     return (
       <div className="box">
@@ -81,33 +93,36 @@ class Form extends Component {
         <form onSubmit={this.handleSubmit}>
           <div className="inputBox">
             <input
-              required="off"
               type="text"
               name="username"
               id="username"
               onChange={this.inputHandleChange}
             />
             <label htmlFor="username">Username:</label>
-            {this.state.errors.username ? (
-              <span>{this.messages.username}</span>
-            ) : null}
+            <div className="errorBox">
+              {this.state.errors.username ? (
+                <span>{this.messages.username}</span>
+              ) : null}
+            </div>
           </div>
           <div className="inputBox">
             <input
-              required="off"
               type="password"
               name="password"
               id="password"
               onChange={this.inputHandleChange}
             />
             <label htmlFor="password">Password:</label>
-            {this.state.errors.password ? (
-              <span>{this.messages.password}</span>
-            ) : null}
+            <div className="errorBox">
+              {this.state.errors.password ? (
+                <span>{this.messages.password}</span>
+              ) : null}
+            </div>
           </div>
           <div className="btnBox">
             <button>Login</button>
           </div>
+          {this.state.message ? <h3>{this.state.message}</h3> : null}
         </form>
       </div>
     );
