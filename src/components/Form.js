@@ -52,8 +52,10 @@ class Form extends Component {
     };
   };
   handleSubmit = (e) => {
+    const validation = this.formValidation();
     e.preventDefault();
-    if (this.formValidation().correct) {
+    if (validation.correct) {
+      console.log("successful");
       this.setState({
         username: "",
         password: "",
@@ -65,6 +67,7 @@ class Form extends Component {
         },
       });
     } else {
+      console.log("not successful");
       this.setState({
         errors: {
           username: !this.formValidation().username,
